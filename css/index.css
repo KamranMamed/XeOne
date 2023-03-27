@@ -1,0 +1,267 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header .up{
+    width: 100%;
+    min-height: 650px;
+    background: grey;
+    background-image: url('../img/EaKEstDVAAIwU4e.jpg-large_1x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header .up .navbar{
+    width: 100%;
+    min-height: 70px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .up .navbar .leftUp ul{
+    list-style: none;
+}
+
+header .up .navbar .leftUp ul li{
+    position: relative;
+    float: left;
+}
+
+header .up .navbar .leftUp ul li a{
+    font-size: 35px;
+    padding: 7px;
+    color: white;
+}
+
+header .up .navbar .rightUp ul{
+    list-style: none;
+}
+
+header .up .navbar .rightUp ul li{
+    position: relative;
+    float: left;
+}
+
+header .up .navbar .rightUp ul li a{
+    font-size: 17px;
+    padding: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+header .up .navbar .rightUp ul li a:hover{
+    color: rgb(16, 177, 177);
+}
+
+header .up .upCenter{
+    width: 100%;
+    min-height: 500px;
+    /* background: blue; */
+    float: left;
+    padding: 155px;
+    color: black;
+}
+
+header .up .upCenter span{
+    font-size: 65px;
+}
+
+header .up .upCenter p{
+    padding: 5px;
+}
+
+header .down {
+    width: 100%;
+    min-height: 650px;
+    /* background: brown; */
+    padding: 70px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: end;
+}
+
+header .down .leftDown{
+    width: 50%;
+    min-height: 350px;
+    /* background: green; */
+    float: left;
+    margin-top: 115px;
+}
+
+header .down .rightDown{
+    width: 50%;
+    height: 350px;
+    /* background: purple; */
+    float: left;
+    margin-top: 115px;
+}
+
+header .down .leftDown .first{
+    display: block;
+    font-size: 25px;
+    padding-left: 10px;
+    color: rgb(5, 168, 168)
+}
+
+header .down .leftDown .second{
+    display: block;
+    font-size: 60px;
+    padding-left: 7px;
+    float: left;
+}
+
+header .down .leftDown .third{
+    padding-top: 90px;
+    display: block;
+    float: left;
+    color: rgb(121, 115, 115);
+}
+
+header .down .leftDown .seo{
+    width: 20%;
+    height: 40px;
+    background: purple;
+    float: left;
+    margin: 20px;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+header .down .leftDown .seo:hover{
+    background-color: aqua;
+}
+
+header .down .leftDown .seo a{
+    color: white;
+}
+
+header .down .rightDown{
+    background-image: url('../img/x332_trim.webp');
+    background-repeat: no-repeat;
+    float: left;
+}
+
+header .down .center{
+    width: 100%;
+    min-height: 270px;
+    /* background: darkorange; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    margin-top:-670px;
+} 
+
+header .down .center .left{
+    width: 35%;
+    height: 240px;
+    background: rgb(27, 161, 179);
+    float: left;
+}
+
+header .down .center .mid{
+    width: 30%;
+    height: 270px;
+    background: rgb(151, 2, 151);
+    float: left;
+}
+
+header .down .center .right{
+    width: 35%;
+    height: 240px;
+    background: rgb(27, 161, 179);
+    float: left;
+}
+
+header .down .center .left .icon{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .down .center .left .text1{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .down .center .left .text2{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+}
+
+header .down .center .right .icon{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .down .center .right .text3{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .down .center .right .text4{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+}
+
+header .down .center .mid .icon{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .down .center .mid .text5{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .down .center .mid .text6{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+}
