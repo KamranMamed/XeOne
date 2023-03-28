@@ -67,7 +67,7 @@ header .up .upCenter{
     /* background: blue; */
     float: left;
     padding: 155px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 header .up .upCenter span{
@@ -161,7 +161,7 @@ header .down .center{
     justify-content: center;
     align-items: center;
     left: 0;
-    margin-top:-670px;
+    margin-top:-200px;
 } 
 
 header .down .center .left{
